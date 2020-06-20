@@ -8,9 +8,8 @@
 
 **Other:**
 - Rename SwiftPM library to `ReSwiftThunk`, this makes naming consistent across all package manager (Cocoapods, Carthage and SwiftPM)
-
-
 - `ExpectThunk`'s methods `dispatches` and `getsState` no longer have `@discardableResult` return values
+- Fixes Carthage 0.35.0 build error (WIP :))
 
 # 1.2.0
 
